@@ -41,7 +41,7 @@ strong{
   background-color: var(--clr-white);
   padding: 1.5rem;
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -109,4 +109,13 @@ strong{
   color: var(--clr-nutmeg);
   font-weight: 600;
   padding: 0.5rem;
+}
+
+@media(max-width: 425px){
+  .article{
+    width: 100%;
+  }
+
+  .article-parent{
+    margin: 0 0;
 }
